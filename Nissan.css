@@ -23,3 +23,8 @@ h1, p, a{
 h1, p, a{
     font-family: myFant;
 }
+
+.nissandiv{
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+}
