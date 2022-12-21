@@ -1,0 +1,25 @@
+@font-face{
+    font-family: myFont;
+    src:url(NissanBrand-Bold.ttf);
+}
+h1, p, a{
+    font-family: myFont;
+}
+
+
+@font-face{
+    font-family: myFint;
+    src:url(NissanBrand-Light.ttf);
+}
+h1, p, a{
+    font-family: myFint;
+}
+
+
+@font-face{
+    font-family: myFant;
+    src:url(NissanBrand-Regular.ttf);
+}
+h1, p, a{
+    font-family: myFant;
+}
