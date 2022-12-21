@@ -1,9 +1,19 @@
+body{
+    background-image: url("darkbg2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%
+}
+
 @font-face{
     font-family: myFont;
     src:url(NissanBrand-Bold.ttf);
 }
-h1, p, a{
+ .explore{
     font-family: myFont;
+    margin:-30px;
+    font-size: 80px;
 }
 
 
@@ -11,8 +21,18 @@ h1, p, a{
     font-family: myFint;
     src:url(NissanBrand-Light.ttf);
 }
-h1, p, a{
+h1, p, a, .std{
     font-family: myFint;
+}
+.std{
+    letter-spacing: 10px;
+    font-size: 30px;
+}
+.datediv{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    letter-spacing: 5px;
+    font-size: 18px;
 }
 
 
@@ -24,7 +44,42 @@ h1, p, a{
     font-family: myFant;
 }
 
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+p{
+    max-width: 470px;
+    min-width: 100px;
+    text-align: center;
+    font-size: 17px;
+
+}
+
+.header{
+    margin: 0;
+}
+
 .nissandiv{
     border-top: 2px solid;
     border-bottom: 2px solid;
+}
+
+
+
+.logo {
+    margin-top: 50px;
+    width:250px;
+}
+
+.header-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
