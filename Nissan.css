@@ -68,8 +68,6 @@ p{
     border-bottom: 2px solid;
 }
 
-
-
 .logo {
     margin-top: 70px;
     width:270px;
@@ -93,14 +91,35 @@ p{
     display: none;
 }
 
-/* @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
+    body, html{
+        background-image: url("darkbg2.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 100vh;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
     .desktopview{
         display:none;
-    }
-    h1{
-        color:red;
+        visibility: hidden;
     }
     .mobileview{
-        display: flex;
+        display: unset;
     }
-  } */
+
+    .header{
+        font-size: 50px;
+    }
+    .explore{
+        font-size: 80px;
+    }
+    .header2{
+        font-size: 42px;
+    }
+
+    .explore{
+        margin:0;
+    }
+  }

@@ -2,41 +2,42 @@
 <html>
 
 <head>
-    <script>
+    <!-- <script>
         if(window.innerWidth<=600){
             document.getElementById("desktopview").style.display='none';
         }
         else{
-            document.getElementById("mobileview").remove();
+            // document.getElementById("mobileview").remove();
         }
-    </script>
-
+    </script> -->
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link rel="stylesheet" href="Nissan.css">
 </head>
 
 <body class="container">
         <div class="mobileview" id="mobileview">
-            <div>
-                <img class="logo" src="nissan.png" alt="Nissan Logo">
+            <div style="display: flex; flex-direction: column; justify-self: center; align-items: center; text-align: center;">
+                <img style="width: 150px" class="logo" src="nissan.png" alt="Nissan Logo">
             </div>
             
             <div class="header-container">
-                <h1 style="margin-top: 50px; font-size: 70px" class="header">GET READY TO</h1>
-                <h1 class="explore">EXPLORE</h1>
-                <h1 style="font-size: 60px" class="header">MORE. TOGETHER.</h1>
+                <h1 style=" margin-top: 50px; font-size: 39px" class="header">GET READY TO</h1>
+                <h1 style="font-size: 60px; margin: -15px;" class="explore">EXPLORE</h1>
+                <h1 style="font-size: 32px; margin: -0.1px;" class="header2">MORE. TOGETHER.</h1>
             </div>
             
 
-            <div style="margin-top: 10px; margin-bottom: 10px; font-size: 50px">
-                <p>Prepare yourself for a fun-filled day of test-drives around the city, followed by a dinner hosted at a one-of-a-kind venue in the evening.</p>
+            <div style="font-size: 50px">
+                <p style="margin: 20px; padding: 20px; margin-bottom: 10px; padding-bottom: 10px; font-size: 18px;">Prepare yourself for a fun-filled day of test-drives around the city, followed by a dinner hosted at a one-of-a-kind venue in the evening.</p>
                 </div>
-
-            <div class="datediv">
-                <h1>9 JANUARY 2023</h1>
+            <div style='width:100vw; display: flex; justify-content: center;' >
+                <div class="datediv" style="display: flex; justify-content: center;">
+                    <h1 style="font-size: 20px;">9 JANUARY 2023</h1>
+                </div>
             </div>
             
-            <div>
-                <h1 class="std">SAVE THE DATE</h1>
+            <div style="display: flex; justify-content: center;">
+                <h1 style="font-size: 20px;" class="std">SAVE THE DATE</h1>
             </div>
         </div>
 
@@ -45,8 +46,8 @@
 
 
 
-        <div class="desktopview" id="desktopview">
-            <div>
+        <div class="desktopview" id="desktopview"  style="display: flex; flex-direction: column; justify-self: center; align-items: center; text-align: center;">
+            <div style="display: flex; justify-self: center; align-items: center; text-align: center;">
                 <img class="logo" src="nissan.png" alt="Nissan Logo">
             </div>
 
@@ -54,7 +55,7 @@
                 <div class="header-container" >
                     <h1 style="font-size: 50px" class="header">GET READY TO</h1>
                     <h1 style="font-size: 80px;" class="explore">EXPLORE</h1>
-                    <h1 style="font-size: 42px" class="header">MORE. TOGETHER.</h1>
+                    <h1 style="font-size: 42px" class="header2">MORE. TOGETHER.</h1>
                 </div>
 
                 
