@@ -33,6 +33,8 @@ h1, p, a, .std{
     border-bottom: 2px solid black;
     letter-spacing: 5px;
     font-size: 18px;
+    padding: 0;
+    margin: 0;
 }
 
 
