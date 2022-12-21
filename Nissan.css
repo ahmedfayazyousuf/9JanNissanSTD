@@ -1,9 +1,9 @@
-body{
-    background-image: url("darkbg2.jpg");
+body, html{
+    background-image: url("desktop.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    height: 100%
+    height: 100vh;
 }
 
 @font-face{
@@ -13,7 +13,7 @@ body{
  .explore{
     font-family: myFont;
     margin:-30px;
-    font-size: 80px;
+    font-size: 110px;
 }
 
 
@@ -26,15 +26,16 @@ h1, p, a, .std{
 }
 .std{
     letter-spacing: 10px;
-    font-size: 30px;
+    font-size: 50px;
 }
 .datediv{
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
     letter-spacing: 5px;
-    font-size: 18px;
+    font-size: 27px;
     padding: 0;
     margin: 0;
+
 }
 
 
@@ -48,17 +49,14 @@ h1, p, a{
 
 .container{
     display: flex;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
 }
 
 p{
-    max-width: 470px;
-    min-width: 100px;
+    padding: 40px;
     text-align: center;
-    font-size: 17px;
-
+    font-size: 22px;
 }
 
 .header{
@@ -73,8 +71,8 @@ p{
 
 
 .logo {
-    margin-top: 50px;
-    width:250px;
+    margin-top: 70px;
+    width:270px;
 }
 
 .header-container{
@@ -85,3 +83,24 @@ p{
     margin: 0;
     padding: 0;
 }
+
+
+.headddd{
+    font-size: 50px;
+}
+
+.mobileview{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .desktopview{
+        display:none;
+    }
+    h1{
+        color:red;
+    }
+    .mobileview{
+        display: flex;
+    }
+  }

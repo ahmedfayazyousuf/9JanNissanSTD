@@ -2,36 +2,82 @@
 <html>
 
 <head>
+    <script>
+        if(window.innerWidth<=600){
+            document.getElementById("desktopview").style.display='none';
+        }
+        else{
+            document.getElementById("mobileview").remove();
+        }
+    </script>
+
     <link rel="stylesheet" href="Nissan.css">
 </head>
 
 <body class="container">
+        <div class="mobileview" id="mobileview">
+            <div>
+                <img class="logo" src="nissan.png" alt="Nissan Logo">
+            </div>
+            
+            <div class="header-container">
+                <h1 style="margin-top: 50px; font-size: 70px" class="header">GET READY TO</h1>
+                <h1 class="explore">EXPLORE</h1>
+                <h1 style="font-size: 60px" class="header">MORE. TOGETHER.</h1>
+            </div>
+            
 
-    <div>
-        <img class="logo" src="nissan.png" alt="Nissan Logo">
-    </div>
-    
-    <div class="header-container">
-        <h1 style="margin-top: 50px; font-size: 50px" class="header">GET READY TO</h1>
-        <h1 class="explore">EXPLORE</h1>
-        <h1 style="font-size: 40px" class="header">MORE. TOGETHER.</h1>
-    </div>
-    
+            <div style="margin-top: 10px; margin-bottom: 10px; font-size: 50px">
+                <p>Prepare yourself for a fun-filled day of test-drives around the city, followed by a dinner hosted at a one-of-a-kind venue in the evening.</p>
+                </div>
 
-    <div style="margin-top: 50px; font-size: 50px">
-        <p>Prepare yourself for a fun-filled day of test-drives around the city, followed by a dinner hosted at a one-of-a-kind venue in the evening.</p>
-        <!-- <p>Prepare yourself for a fun-filled day of test-drives</p>
-        <p>around the city, followed by a dinner hosted at a</p>
-        <p>one-of-a-kind venue in the evening.</p> -->
-    </div>
+            <div class="datediv">
+                <h1>9 JANUARY 2023</h1>
+            </div>
+            
+            <div>
+                <h1 class="std">SAVE THE DATE</h1>
+            </div>
+        </div>
 
-    <div class="datediv">
-        <h1>9 JANUARY 2023</h1>
-    </div>
-    
-    <div>
-        <h1 class="std">SAVE THE DATE</h1>
-    </div>
+
+
+
+
+
+        <div class="desktopview" id="desktopview">
+            <div>
+                <img class="logo" src="nissan.png" alt="Nissan Logo">
+            </div>
+
+            <div style="display:flex; flex-direction: row; justify-content: center; gap:40px; margin-top: 30px;">
+                <div class="header-container" >
+                    <h1 style="font-size: 50px" class="header">GET READY TO</h1>
+                    <h1 style="font-size: 80px;" class="explore">EXPLORE</h1>
+                    <h1 style="font-size: 42px" class="header">MORE. TOGETHER.</h1>
+                </div>
+
+                
+                
+                <div style="display: flex; flex-direction: column; justify-content: center;">
+                    <div class="datediv" style="text-align: center; margin-top: 20px;">
+                        <h1 style="margin: 0; font-size: 40px; padding: 5px;">9 JANUARY 2023</h1>
+                    </div>
+
+                    <div style="text-align: center">
+                        <h1 style="margin: 0; font-size: 35px; margin-top: 40px;" class="std">SAVE THE DATE</h1>
+                    </div>
+                </div>
+            </div>
+
+
+            <div style=" width: 880px;" >
+                <p style="font-size: 20px;">Prepare yourself for a fun-filled day of test-drives around the city, followed by a dinner hosted at a one-of-a-kind venue in the evening.</p>
+                <!-- <p>Prepare yourself for a fun-filled day of test-drives</p>
+                <p>around the city, followed by a dinner hosted at a</p>
+                <p>one-of-a-kind venue in the evening.</p> -->
+            </div>
+        </div>
 
 </body>
 </html>
